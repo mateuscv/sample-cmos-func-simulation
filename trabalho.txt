@@ -7,12 +7,12 @@
 Vvdd vdd gnd 0.9V
 
 * CIRCUITO:
-Pu1 nodoqr q vdd vdd PMOS L=32n W=100n
-Pu2
-Pu3
-Pu4
+Pu1 nodoqr q vdd    vdd PMOS L=32n W=100n
+Pu2 out    r nodoqr vdd PMOS L=32n W=100n 
+Pu3 nodost s vdd    vdd PMOS L=32n W=100n
+Pu4 out    t nodost vdd PMOS L=32n W=100n
 
-Pd1
+Pd1 
 Pd2
 Pd3
 Pd4
