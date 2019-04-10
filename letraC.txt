@@ -19,10 +19,10 @@ Md4 out          t nodopar1par2 gnd NMOS L=32n W=100n
 
 * TESTE C/ TENSÕES
 
-Vs s 0 PULSE (0 0.9 0 0 0 1n 2n)
-Vt t 0 PULSE (0 0.9 0 0 0 2n 4n)
-Vk q 0 PULSE (0 0.9 0 0 0 4n 8n)
-Vr r 0 PULSE (0 0.9 0 0 0 8n 16n)
+Vs q 0 PULSE (0 0.9 0 0 0 1n 2n)
+Vt r 0 PULSE (0 0.9 0 0 0 2n 4n)
+Vk s 0 PULSE (0 0.9 0 0 0 4n 8n)
+Vr t 0 PULSE (0 0.9 0 0 0 8n 16n)
 
 * ANÁLISE TRANSIENTE
 
