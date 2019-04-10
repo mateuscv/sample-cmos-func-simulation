@@ -1,0 +1,18 @@
+* TRABALHO DE SISTEMAS DIGITAIS - MATEUS CAPPELLARI VIEIRA - 116514
+
+* MODELO:
+.include 32nm_HP.pm
+
+* FONTE:
+Vvdd vdd gnd 0.9V
+
+* CIRCUITO:
+Pu1 nodoqr q vdd vdd PMOS L=32n W=100n
+Pu2
+Pu3
+Pu4
+
+Pd1
+Pd2
+Pd3
+Pd4
